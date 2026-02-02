@@ -13,7 +13,7 @@ Master's Student in Data Science | Building AI solutions with Python, LLMs, and 
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" />
   <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white" />
-  <a href="https://huggingface.co/Mervecaliskann" target="_blank">
+  <a href="https://huggingface.co/Mervecaliskan" target="_blank">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-FFD21E?style=for-the-badge&logoColor=black" />
   </a>
 </div>
@@ -37,6 +37,6 @@ Master's Student in Data Science | Building AI solutions with Python, LLMs, and 
 <a href="https://www.linkedin.com/in/mervecaliskann/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="https://huggingface.co/Mervecaliskann">
+<a href="https://huggingface.co/Mervecaliskan">
   <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Profile-FFD21E?style=for-the-badge&logoColor=black" />
 </a>
