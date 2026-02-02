@@ -18,13 +18,6 @@ Master's Student in Data Science | Building AI solutions with Python, LLMs, and 
   </a>
 </div>
 
----
-
-### 📊 GitHub Stats
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mervecaliskann&show_icons=true&theme=dark&count_private=true" height="150" alt="Merve's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mervecaliskann&layout=compact&theme=dark" height="150" alt="Merve's Top Langs" />
-</div>
 
 ---
 
