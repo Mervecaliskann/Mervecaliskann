@@ -1,11 +1,11 @@
 ### Hi there, I'm Merve! 👋
 
-🚀 **Data Scientist & AI Engineer**
-Master's Student in Data Science | Specializing in **End-to-End AI Pipelines**, **Agentic Workflows**, and **Production-Ready LLM Applications**.
+🚀 **Computer Vision & AI Engineer**
+Master's Student in Data Science | Specializing in **End-to-End AI Pipelines**, **Computer Vision**, and **Production-Ready LLM Applications**.
 
 - 🎓 Currently pursuing **MSc in Data Science** (Expected Jan 2027).
 - 💡 Background in **Electrical & Electronics Engineering**.
-- 🏆 Awarded (LLM Jetpack Ideathon Winner).
+- 🏆 **AI Developer & CV Engineer** for "Glossa" (LLM Jetpack Ideathon Winner).
 
 ---
 
@@ -16,9 +16,9 @@ Master's Student in Data Science | Specializing in **End-to-End AI Pipelines**, 
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" />
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white" />
 </div>
 
 ---
@@ -33,7 +33,7 @@ Master's Student in Data Science | Specializing in **End-to-End AI Pipelines**, 
 
 ### 🌱 Current Focus
 - **Advanced RAG Architectures** (Agentic & Multimodal workflows).
-- **MLOps:** Scaling and deploying LLMs in production environments.
+- **MLOps:** Scaling and deploying LLMs & CV models in production environments.
 
 📫 **Let's Connect:**
 <a href="https://www.linkedin.com/in/mervecaliskann/">
