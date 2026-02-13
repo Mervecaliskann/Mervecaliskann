@@ -1,32 +1,41 @@
 ### Hi there, I'm Merve! 👋
 
 🚀 **Data Scientist & AI Engineer**
-Master's Student in Data Science | Building AI solutions with Python, LLMs, and Docker.
+Master's Student in Data Science | Specializing in **End-to-End AI Pipelines**, **Agentic Workflows**, and **Production-Ready LLM Applications**.
+
+- 🎓 Currently pursuing **MSc in Data Science** (Expected Jan 2027).
+- 💡 Background in **Electrical & Electronics Engineering**.
+- 🏆 Awarded **Algorithm Lead** for "Glossa" (LLM Jetpack Ideathon Winner).
 
 ---
 
-### 🛠️ Languages and Tools
+### 🛠️ Tech Stack & Tools
 <div align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white" />
-  <a href="https://huggingface.co/Mervecaliskan" target="_blank">
-    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-FFD21E?style=for-the-badge&logoColor=black" />
-  </a>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white" />
 </div>
-
 
 ---
 
-### 🌱 I’m currently learning
-- **Advanced RAG Architectures**
-- **MLOps & Model Deployment**
-- **Computer Vision Pipelines**
+### 🌟 Featured Projects
+- **[AI-Support-Pipeline](https://github.com/Mervecaliskann/AI-Support-Pipeline):** An end-to-end automated ticketing system using **Llama-3**, **FastAPI**, and **PostgreSQL** with a real-time analytics dashboard.
+- **[Video-RAG-AI-Search](https://github.com/Mervecaliskann/Video-RAG-AI-Search):** Multimodal search engine for video content using **CLIP embeddings** and **Vector Databases**.
+- **[AI-Finance-Agent](https://github.com/Mervecaliskann/AI-Finance-Agent):** Real-time financial analysis agent utilizing **Tool Calling** and **Yahoo Finance API**.
+- **[AI-Interview-Coach](https://github.com/Mervecaliskann/AI-Interview-Coach):** Voice-interactive technical interview simulator built with **RAG** and **Llama-3**.
 
-📫 **Reach me:**
+---
+
+### 🌱 Current Focus
+- **Advanced RAG Architectures** (Agentic & Multimodal workflows).
+- **MLOps:** Scaling and deploying LLMs in production environments.
+
+📫 **Let's Connect:**
 <a href="https://www.linkedin.com/in/mervecaliskann/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
