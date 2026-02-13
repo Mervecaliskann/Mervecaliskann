@@ -5,7 +5,7 @@ Master's Student in Data Science | Specializing in **End-to-End AI Pipelines**, 
 
 - 🎓 Currently pursuing **MSc in Data Science** (Expected Jan 2027).
 - 💡 Background in **Electrical & Electronics Engineering**.
-- 🏆 **AI Developer & CV Engineer** for "Glossa" (LLM Jetpack Ideathon Winner).
+- 🏆 **AI Engineer & CV Engineer** for "Glossa" (LLM Jetpack Ideathon Winner).
 
 ---
 
