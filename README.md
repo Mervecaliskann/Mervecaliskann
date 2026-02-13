@@ -5,7 +5,7 @@ Master's Student in Data Science | Specializing in **End-to-End AI Pipelines**, 
 
 - 🎓 Currently pursuing **MSc in Data Science** (Expected Jan 2027).
 - 💡 Background in **Electrical & Electronics Engineering**.
-- 🏆 Awarded **Algorithm Lead** for "Glossa" (LLM Jetpack Ideathon Winner).
+- 🏆 Awarded (LLM Jetpack Ideathon Winner).
 
 ---
 
