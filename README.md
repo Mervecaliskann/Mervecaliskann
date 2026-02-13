@@ -27,7 +27,6 @@ Master's Student in Data Science | Specializing in **End-to-End AI Pipelines**, 
 - **[AI-Support-Pipeline](https://github.com/Mervecaliskann/AI-Support-Pipeline):** An end-to-end automated ticketing system using **Llama-3**, **FastAPI**, and **PostgreSQL** with a real-time analytics dashboard.
 - **[Video-RAG-AI-Search](https://github.com/Mervecaliskann/Video-RAG-AI-Search):** Multimodal search engine for video content using **CLIP embeddings** and **Vector Databases**.
 - **[AI-Finance-Agent](https://github.com/Mervecaliskann/AI-Finance-Agent):** Real-time financial analysis agent utilizing **Tool Calling** and **Yahoo Finance API**.
-- **[AI-Interview-Coach](https://github.com/Mervecaliskann/AI-Interview-Coach):** Voice-interactive technical interview simulator built with **RAG** and **Llama-3**.
 
 ---
 
