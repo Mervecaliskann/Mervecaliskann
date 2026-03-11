@@ -24,6 +24,20 @@ Master's Student in Data Science | Specializing in **End-to-End AI Pipelines**, 
 
 ---
 
+### 🔬 Featured Projects
+
+| Project | Description | Stack |
+|---|---|---|
+| 🦙 [Llama-3.2-3B QLoRA Fine-Tuning](https://github.com/Mervecaliskann/llama3-qlora-finetuning) | Fine-tuned Llama-3.2-3B on Dolly-15K. Train loss 1.87→1.49, no overfitting. | PyTorch, Unsloth, TRL, MLflow |
+| 🤖 Transformer from Scratch | Full encoder-decoder: MHA, Beam Search, FP16, LR Scheduler, SST-2 | PyTorch |
+| 📊 AI Agentic Benchmarking Lab | ReAct vs Plan-and-Execute benchmarking with statistical validation | BigQuery, SciPy, Streamlit |
+| 🎫 AI Support Analytics Pipeline | End-to-end ticketing: FastAPI + Llama-3 + PostgreSQL + CI/CD | FastAPI, Groq, Docker |
+| 🎨 Glossa Color Correction Engine | CIELAB-based metamerism fix + Digital Grey Card for beauty-tech | OpenCV, CIELAB, Flutter |
+
+
+---
+
+
 ### 🌱 Current Focus
 - **Advanced RAG Architectures** (Agentic & Multimodal workflows).
 - **MLOps:** Scaling and deploying LLMs & CV models in production environments.
