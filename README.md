@@ -3,10 +3,11 @@
 🚀 **Computer Vision & AI Engineer**
 Master's Student in Data Science | Specializing in **End-to-End AI Pipelines**, **Computer Vision**, and **Production-Ready LLM Applications**.
 
-- 🎓 Currently pursuing **MSc in Data Science** (Expected Jan 2027).
-- 💡 Background in **Electrical & Electronics Engineering**.
-- 🏆 **AI Engineer & CV Engineer** for "Glossa" (LLM Jetpack Ideathon Winner).
 
+- 💡 Background in **Electrical & Electronics Engineering**.
+- 🎓 Pursuing **MSc in Data Science** @ Dokuz Eylül University (GPA: 3.70)
+- 🏆 **1st Place** — LLM Jetpack Ideathon | AI & CV Engineer @ **Glossa** (Pre-seed Beauty-Tech)
+- 🌍 **Top 10 Talent** — EU-funded E-DATA Project (Netherlands & Germany)
 ---
 
 ### 🛠️ Tech Stack & Tools
