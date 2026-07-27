@@ -39,6 +39,6 @@ Also regularly: LangGraph · SHAP · XGBoost · Groq / Llama-3 · MLflow · Pine
 
 ### Currently
 
-Working on my thesis — evaluating open-source LLMs with LLM-as-a-Judge and non-parametric statistics — and learning more about agentic RAG and the MLOps side of shipping models.
+Working on my thesis, evaluating open-source LLMs with LLM-as-a-Judge and non-parametric statistics and learning more about agentic RAG and the MLOps side of shipping models.
 
 📫 [LinkedIn](https://www.linkedin.com/in/mervecaliskann/) · [Hugging Face](https://huggingface.co/Mervecaliskan) · [Medium](https://medium.com/@mervcaliskaan)
