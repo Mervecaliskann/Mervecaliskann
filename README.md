@@ -1,6 +1,6 @@
 ### Hi, I'm Merve 👋
 
-AI/LLM Engineer with an electrical engineering background, currently doing an MSc in Data Science. Most of my recent work is around LLM agents, RAG, and model evaluation — and lately the classic ML side too, like credit-risk scoring with SHAP-based explanations. I like building things end to end: the model, the API, and the dashboard that makes it usable.
+AI/LLM Engineer with an electrical engineering background, currently doing an MSc in Data Science. Most of my recent work is around LLM agents, RAG, and model evaluation and lately the classic ML side too, like credit-risk scoring with SHAP-based explanations. I like building things end to end: the model, the API, and the dashboard that makes it usable.
 
 - 🎓 MSc in Data Science @ Dokuz Eylül University (GPA 3.70) · BSc in Electrical & Electronics Engineering
 - 💼 Founding AI Engineer @ Glossa (pre-seed) · 1st Place, LLM Jetpack Ideathon
