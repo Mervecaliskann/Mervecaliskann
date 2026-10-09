@@ -1,11 +1,14 @@
 ### Hi, I'm Merve 👋
 
-Data scientist and AI engineer with an electrical engineering background, currently doing an MSc in Data Science. I work on two sides of applied AI: machine learning for risk scoring and anomaly detection on imbalanced data, and LLM systems like agents, RAG and model evaluation. I like building things end to end: the model, the API, and the dashboard that makes it usable.
+M.Sc. Data Science student at Dokuz Eylül University, working on both sides of applied AI: LLM systems (agents, RAG, evaluation) and classic machine learning (risk scoring and anomaly detection on imbalanced data). My thesis is on the statistical evaluation of open-source LLMs with LLM-as-a-Judge. I like building things end to end: the model, the API, and the tests that show it works.
 
-- 🎓 MSc in Data Science @ Dokuz Eylül University (GPA 3.70) · BSc in Electrical & Electronics Engineering
-- 💼 Founding AI Engineer @ Glossa (pre-seed) · 1st Place, LLM Jetpack Ideathon
-- ⚡ Former project engineer in solar energy, working with electricity distribution companies on project approvals
-- 🌍 Top 10 Talent, EU-funded E-DATA Project (study tour in the Netherlands & Germany)
+- 🎓 M.Sc. in Data Science @ Dokuz Eylül University (in progress, GPA 3.70) · B.Sc. in Electrical & Electronics Engineering
+- 🔬 Thesis: statistical evaluation of 7B–8B open-source LLMs (Friedman, Wilcoxon, McNemar)
+- 💼 AI Model Evaluator (RLHF) @ Outlier AI, part-time
+- 🧪 AI & Computer Vision Engineer @ Glossa, an early-stage startup project (12/2025 – 07/2026) · 1st place, LLM Jetpack Ideathon
+- ⚡ Former project engineer in solar energy
+- 🌍 Top 10, EU-funded E-DATA Project (study tour in the Netherlands & Germany)
+- 📫 Open to junior AI Engineer and Data Scientist roles (EU or remote) · EU citizen
 
 ---
 
