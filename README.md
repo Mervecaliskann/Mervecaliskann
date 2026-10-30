@@ -33,7 +33,7 @@ M.Sc. Data Science student at Dokuz Eylül University, working on both sides of 
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
 </div>
 
-Also regularly: XGBoost · SHAP · SQL · PySpark · LangGraph · diffusers · ControlNet · SegFormer · CLIP · Groq / Llama-3 · MLflow · Pinecone · statsmodels
+Also regularly: XGBoost · SHAP · SQL · PySpark · LangGraph · diffusers · ControlNet · LoRA · SegFormer · CLIP · Groq / Llama-3 · MLflow · Pinecone · statsmodels
 
 ---
 
@@ -42,6 +42,7 @@ Also regularly: XGBoost · SHAP · SQL · PySpark · LangGraph · diffusers · C
 | Project | What it is | Stack |
 |---|---|---|
 | [Interior Render Preservation](https://github.com/Mervecaliskann/interior-render-preservation) | Compares ControlNet, img2img and inpainting for AI interior renders and measures how well they keep geometry and colors (edge recall, CIEDE2000 ΔE, CLIP). Adding the original photo cut color drift by 59%; a floor mask kept the rest of the room almost unchanged (ΔE 0.06 vs 8.9) · [live demo](https://huggingface.co/spaces/Mervecaliskan/keep-the-design) · [article](https://medium.com/@mervcaliskaan/does-the-ai-keep-your-design-measuring-geometry-and-color-in-stable-diffusion-interior-renders-43260ec239d3) | Stable Diffusion, ControlNet, SegFormer, Gradio |
+| [Japandi Style LoRA](https://github.com/Mervecaliskann/japandi-style-lora) | My own style LoRA for Stable Diffusion 1.5 (17 images, 0.19% of parameters, 4.9 min on a free GPU). CLIP style similarity 0.775 → 0.881 with no memorization, combined with ControlNet to restyle a room while keeping its layout · [live demo](https://huggingface.co/spaces/Mervecaliskan/japandi-room-restyle) · [LoRA](https://huggingface.co/Mervecaliskan/japandi-interior-lora) | Stable Diffusion, LoRA, ControlNet, Gradio |
 | [Electricity Theft Detection](https://github.com/Mervecaliskann/electricity-theft-detection) | Risk scoring on meter data of 42K customers to prioritize field inspections. The top 20% riskiest customers cover 63% of theft cases. Includes SHAP explanations and a Power BI dashboard | XGBoost, SHAP, Power BI |
 | [Explainable Credit Risk Scoring](https://github.com/Mervecaliskann/explainable-credit-risk) | Default-risk model with credit metrics (KS/Gini), SHAP explanations, and LLM-generated Turkish rationales | scikit-learn, XGBoost, SHAP |
 | [Responsible AI Banking Agent](https://github.com/Mervecaliskann/responsible-ai-banking-agent) | A LangGraph banking assistant, hardened for regulated use: PII redaction (TCKN/IBAN), guardrails, audit logging, model card | LangGraph, Presidio, Groq |
