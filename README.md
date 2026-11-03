@@ -10,7 +10,7 @@ M.Sc. Data Science student at Dokuz Eylül University, working on both sides of 
 - ⚡ Former project engineer in solar energy
 - 🌍 Top 10, EU-funded E-DATA Project (study tour in the Netherlands & Germany)
 - ✍️ I write about AI on [Medium](https://medium.com/@mervcaliskaan)
-- 📫 Open to junior AI Engineer and Data Scientist roles (EU, remote or relocation) · EU citizen, no visa needed · [LinkedIn](https://www.linkedin.com/in/mervecaliskann)
+- 📫 Open to AI Engineer and Data Scientist roles (EU, remote or relocation) · EU citizen, no visa needed · [LinkedIn](https://www.linkedin.com/in/mervecaliskann)
 
 ---
 
