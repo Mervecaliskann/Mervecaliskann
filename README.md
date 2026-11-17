@@ -14,13 +14,14 @@ M.Sc. Data Science student at Dokuz Eylül University (Statistics Department, th
 
 ### Selected projects
 
-**Machine learning on meter and sensor data**
+**Machine learning on meter, sensor and sales data**
 
 | Project | What it is | Stack |
 |---|---|---|
 | [Electricity Theft Detection](https://github.com/Mervecaliskann/electricity-theft-detection) | Risk scoring on daily meter data of 42K customers to prioritize field inspections. ROC-AUC 0.82; the riskiest 20% contain 63% of theft cases. Found and fixed data leakage in the reference pipeline; SHAP explanations and a Power BI dashboard | XGBoost, SHAP, Power BI |
 | [Sensor Data Quality Guardrail](https://github.com/Mervecaliskann/smart-sensor-guardrail) | Catches spiking and frozen (stuck) sensors with range, robust Z-score (median/MAD) and stuck-value checks: 30/30 simulated faults caught, 2 false alarms. The SAFE/UNSAFE decision is rule-based; the LLM only explains it. Unit tests | pandas, Streamlit, unittest |
 | [Industrial Anomaly Pipeline](https://github.com/Mervecaliskann/industrial-anomaly-pipeline) | PyTorch autoencoder that learns normal operation of simulated temperature, vibration and pressure sensors. Scaler and threshold fit on training data only; on a separate test set it caught all 50 faults (recall 1.00, precision 0.75) | PyTorch, scikit-learn, SQLite, Streamlit |
+| [Retail Demand Forecasting](https://github.com/Mervecaliskann/retail-demand-forecasting) | 16-day sales forecasts for 540 store-product series (Kaggle Favorita) with one global LightGBM and a rolling 4-fold backtest: 29.5% lower WAPE than seasonal naive. An inventory simulation turns the forecasts into orders: for a 99.5% fill rate it needs 30% less stock. Leakage controls, SHAP, EN/TR notebook | LightGBM, pandas, SHAP |
 | [Explainable Credit Risk Scoring](https://github.com/Mervecaliskann/explainable-credit-risk) | Default-risk model evaluated with KS and Gini, SHAP explanations, LLM-written Turkish rationales and MLflow tracking | XGBoost, SHAP, MLflow |
 
 **LLM systems and evaluation**
