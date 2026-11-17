@@ -1,55 +1,49 @@
 ### Hi, I'm Merve 👋
 
-M.Sc. Data Science student at Dokuz Eylül University, working on both sides of applied AI: LLM systems (agents, RAG, evaluation) and classic machine learning (risk scoring and anomaly detection on imbalanced data). Most recently I built a [RAG assistant for EU regulations](https://github.com/Mervecaliskann/eu-regulation-rag) (AI Act, GDPR, DORA) and measured every step: a reranker raised Recall@5 from 84% to 94%, and the evaluation showed that an answer can be faithful to its sources and still wrong. I also work with image generation models: in nine experiments I measured how well Stable Diffusion keeps an interior design, from geometry and exact paint colors to running costs, automatic failure checks, upscaling and still-to-video, built a [live demo](https://huggingface.co/spaces/Mervecaliskan/keep-the-design) that changes only the floor of a room photo, and trained my own style LoRA. My thesis studies how evaluation decisions such as prompting, token budget and answer extraction change the benchmark scores and rankings of open-source LLMs. I like building things end to end: the model, the app, and the tests that show it works.
+M.Sc. Data Science student at Dokuz Eylül University (Statistics Department, thesis stage) with a B.Sc. in Electrical and Electronics Engineering. I build machine learning and LLM projects end to end and check whether the results really hold: anomaly detection and risk scoring on meter and sensor data, RAG and tool-calling LLM agents, and image generation experiments. My thesis evaluates open-source 7–8B LLMs and studies how choices such as prompt format, token budget and answer extraction change their scores.
 
 - 🎓 M.Sc. in Data Science @ Dokuz Eylül University (in progress, GPA 3.69) · B.Sc. in Electrical & Electronics Engineering
-- 🔬 Thesis: *Statistical Evaluation of Large Language Models' Performance Across Different Tasks* · 8 open-source LLMs on GSM8K, HumanEval and MMLU (McNemar, Cochran's Q, GEE, multiverse analysis)
-- 🔎 RAG: article-aware chunking, FAISS, cross-encoder reranking, grounded answers with citations, Recall@k / MRR / faithfulness evaluation, FastAPI + Docker + GitHub Actions CI
-- 🖼️ Image generation: ControlNet, img2img, mask-based inpainting, LoRA training, quantization and LCM, with measured results · demos: [keep the design](https://huggingface.co/spaces/Mervecaliskan/keep-the-design), [Japandi restyle](https://huggingface.co/spaces/Mervecaliskan/japandi-room-restyle)
+- 🔬 Thesis: *Statistical Evaluation of Large Language Models' Performance Across Different Tasks* · 8 open-source LLMs on GSM8K, HumanEval and MMLU
 - 💼 AI Model Evaluator (RLHF) @ Outlier AI, part-time
-- 🧪 AI & Computer Vision Engineer @ Glossa, an early-stage startup project (12/2025 - 07/2026): skin-tone analysis with OpenCV and CIELAB color science · 1st place, LLM Jetpack Ideathon
-- ⚡ Former project engineer in solar energy
-- 🌍 Top 10, EU-funded E-DATA Project (study tour in the Netherlands & Germany)
+- 🧪 AI & Computer Vision Engineer @ Glossa, an early-stage startup project (12/2025 – 07/2026): skin-tone analysis with OpenCV and CIELAB · 1st place, LLM Jetpack Ideathon
+- ⚡ Former project engineer in solar energy · 🌍 Top 10, EU-funded E-DATA Project
 - ✍️ I write about AI on [Medium](https://medium.com/@mervcaliskaan)
-- 📫 Open to AI Engineer and Data Scientist roles (EU, remote or relocation) · EU citizen, no visa needed · [LinkedIn](https://www.linkedin.com/in/mervecaliskann)
+- 📫 Open to Data Scientist and AI Engineer roles · EU citizen · [LinkedIn](https://www.linkedin.com/in/mervecaliskann)
+
+---
+
+### Selected projects
+
+**Machine learning on meter and sensor data**
+
+| Project | What it is | Stack |
+|---|---|---|
+| [Electricity Theft Detection](https://github.com/Mervecaliskann/electricity-theft-detection) | Risk scoring on daily meter data of 42K customers to prioritize field inspections. ROC-AUC 0.82; the riskiest 20% contain 63% of theft cases. Found and fixed data leakage in the reference pipeline; SHAP explanations and a Power BI dashboard | XGBoost, SHAP, Power BI |
+| [Sensor Data Quality Guardrail](https://github.com/Mervecaliskann/smart-sensor-guardrail) | Catches spiking and frozen (stuck) sensors with range, robust Z-score (median/MAD) and stuck-value checks: 30/30 simulated faults caught, 2 false alarms. The SAFE/UNSAFE decision is rule-based; the LLM only explains it. Unit tests | pandas, Streamlit, unittest |
+| [Industrial Anomaly Pipeline](https://github.com/Mervecaliskann/industrial-anomaly-pipeline) | PyTorch autoencoder that learns normal operation of simulated temperature, vibration and pressure sensors. Scaler and threshold fit on training data only; on a separate test set it caught all 50 faults (recall 1.00, precision 0.75) | PyTorch, scikit-learn, SQLite, Streamlit |
+| [Explainable Credit Risk Scoring](https://github.com/Mervecaliskann/explainable-credit-risk) | Default-risk model evaluated with KS and Gini, SHAP explanations, LLM-written Turkish rationales and MLflow tracking | XGBoost, SHAP, MLflow |
+
+**LLM systems and evaluation**
+
+| Project | What it is | Stack |
+|---|---|---|
+| [EU Regulation RAG](https://github.com/Mervecaliskann/eu-regulation-rag) | Q&A over the EU AI Act, GDPR and DORA (311 pages) with article citations. A cross-encoder reranker raised Recall@5 from 84.4% to 93.8%; answers were 87.5% faithful. Showed that a faithful answer can still be wrong when retrieval misses the right article. FastAPI, Docker, CI | FAISS, sentence-transformers, cross-encoder, FastAPI |
+| [Responsible AI Banking Agent](https://github.com/Mervecaliskann/responsible-ai-banking-agent) | A tool-calling LangGraph agent with PII redaction (TCKN/IBAN), input/output guardrails, audit logging and a model card: 25/25 adversarial prompts blocked, 7/7 benign requests allowed, 50 tests | LangGraph, Presidio, pytest |
+| [Agent Benchmarking Lab](https://github.com/Mervecaliskann/agent-benchmark-pipeline) | Compares a ReAct agent with a fixed-flow LangGraph agent on 14 finance questions (84 runs logged to BigQuery) and tests whether the difference is statistically significant | LangGraph, BigQuery, SciPy |
+| [LangGraph Finance Agent](https://github.com/Mervecaliskann/langgraph-finance-agent-langsmith) | Stock analysis agent with LangSmith tracing and LLM-as-a-judge evaluation. Switching to a separate judge model dropped the score from 4.71 to 3.50: the judge needs the source data to rate accuracy | LangGraph, LangSmith |
+
+**Image generation**
+
+| Project | What it is | Stack |
+|---|---|---|
+| [Interior Render Preservation](https://github.com/Mervecaliskann/interior-render-preservation) | Nine experiments measuring whether Stable Diffusion keeps an interior design (edge recall, CIEDE2000 ΔE, CLIP): ControlNet vs img2img, mask-based floor edits, speed optimizations, exact paint colors, automatic failure detectors checked against my own labels · [live demo](https://huggingface.co/spaces/Mervecaliskan/keep-the-design) · [article](https://medium.com/@mervcaliskaan/does-the-ai-keep-your-design-measuring-geometry-and-color-in-stable-diffusion-interior-renders-43260ec239d3) | Stable Diffusion, ControlNet, SegFormer, Gradio |
+| [Japandi Style LoRA](https://github.com/Mervecaliskann/japandi-style-lora) | My own style LoRA for SD 1.5 (17 images, 4.9 min on a free GPU); CLIP style similarity 0.775 → 0.881, combined with ControlNet to restyle a room while keeping its layout · [live demo](https://huggingface.co/spaces/Mervecaliskan/japandi-room-restyle) | Stable Diffusion, LoRA, ControlNet |
 
 ---
 
 ### Tech I work with
 
-<div align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/Stable_Diffusion-6E40C9?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Gradio-F97316?style=for-the-badge&logo=gradio&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-</div>
-
-Also regularly: FAISS · sentence-transformers · cross-encoders · XGBoost · SHAP · SQL · PySpark · LangGraph · diffusers · ControlNet · LoRA · SegFormer · CLIP · Groq (gpt-oss, Llama) · MLflow · Pinecone · statsmodels
-
----
-
-### A few projects
-
-| Project | What it is | Stack |
-|---|---|---|
-| [EU Regulation RAG](https://github.com/Mervecaliskann/eu-regulation-rag) | RAG assistant for the EU AI Act, GDPR and DORA (311 pages, 1,264 article-aware chunks) that answers with article citations. On a 35-question test set a cross-encoder reranker raised Recall@5 from 84.4% to 93.8% and MRR from 0.665 to 0.722; answers were 87.5% faithful and all out-of-scope questions were refused. Found that a faithful answer can still be wrong when retrieval misses the right article. Served with FastAPI, Dockerfile tested in GitHub Actions CI | FAISS, sentence-transformers, cross-encoder, Groq, FastAPI, Docker |
-| [Interior Render Preservation](https://github.com/Mervecaliskann/interior-render-preservation) | Nine experiments on how well AI interior renders keep a design (edge recall, CIEDE2000 ΔE, CLIP). Adding the original photo cut color drift by 59%; a floor mask kept the rest of the room almost unchanged (ΔE 0.06); fp16 was 3.8× faster than fp32 and LCM-LoRA rendered in 1.4 s; the model ignored HEX paint codes until the color was given as pixels (15/15 within ΔE 5); automatic failure detectors, checked against my own labels, were reliable for color but not for objects and artwork; later experiments compare upscaling methods, SD 1.5 vs SDXL, and turn a still render into a short video with Stable Video Diffusion · [live demo](https://huggingface.co/spaces/Mervecaliskan/keep-the-design) · [article](https://medium.com/@mervcaliskaan/does-the-ai-keep-your-design-measuring-geometry-and-color-in-stable-diffusion-interior-renders-43260ec239d3) | Stable Diffusion, SDXL, ControlNet, SegFormer, Real-ESRGAN, SVD, Gradio |
-| [Japandi Style LoRA](https://github.com/Mervecaliskann/japandi-style-lora) | My own style LoRA for Stable Diffusion 1.5 (17 images, 0.19% of parameters, 4.9 min on a free GPU). CLIP style similarity 0.775 → 0.881 with no memorization, combined with ControlNet to restyle a room while keeping its layout · [live demo](https://huggingface.co/spaces/Mervecaliskan/japandi-room-restyle) · [LoRA](https://huggingface.co/Mervecaliskan/japandi-interior-lora) | Stable Diffusion, LoRA, ControlNet, Gradio |
-| [Electricity Theft Detection](https://github.com/Mervecaliskann/electricity-theft-detection) | Risk scoring on meter data of 42K customers to prioritize field inspections, with a leakage-free evaluation. Inspecting the riskiest 5% is 6.3× more accurate than random, and the top 20% cover 63% of theft cases. Includes SHAP explanations and a Power BI dashboard | XGBoost, SHAP, Power BI |
-| [Explainable Credit Risk Scoring](https://github.com/Mervecaliskann/explainable-credit-risk) | Default-risk model with credit metrics (KS/Gini), SHAP explanations, LLM-generated Turkish rationales and MLflow experiment tracking | scikit-learn, XGBoost, SHAP, MLflow |
-| [Responsible AI Banking Agent](https://github.com/Mervecaliskann/responsible-ai-banking-agent) | A LangGraph banking assistant with a governance layer for regulated settings: PII redaction (TCKN/IBAN), input/output guardrails, audit logging, tests and a model card · [baseline demo](https://huggingface.co/spaces/Mervecaliskan/banking-ai-agent) | LangGraph, Presidio, Groq, pytest |
-| [Agent Benchmarking Lab](https://github.com/Mervecaliskann/agent-benchmark-pipeline) | Compares a ReAct agent and a fixed-flow LangGraph agent on 14 finance questions (84 real runs logged to BigQuery) and tests whether the difference is statistically significant | LangGraph, BigQuery, SciPy, Streamlit |
-| [LangGraph Finance Agent](https://github.com/Mervecaliskann/langgraph-finance-agent-langsmith) | Real-time stock analysis agent with LangSmith tracing and an LLM-as-a-judge evaluation. Switching to a separate judge model dropped the score from 4.71 to 3.50 and showed that the judge needs the source data to rate accuracy | LangGraph, LangSmith, Groq, yfinance |
-| [AI Support Pipeline](https://github.com/Mervecaliskann/AI-Support-Pipeline) | Support tickets auto-categorized and prioritized by an LLM, served over a FastAPI API with a PostgreSQL backend and a Streamlit dashboard | FastAPI, PostgreSQL, Groq |
-| [Document Intelligence Extractor](https://github.com/Mervecaliskann/document-intelligence-extractor) | Extracts structured fields from invoice PDFs with an LLM, validates them with rules (IBAN mod-97, date, amount) and measures field-level accuracy (98.9% on synthetic invoices) · [live demo](https://document--extractor.streamlit.app/) | Python, Groq, Streamlit |
+**ML & statistics:** Python · pandas · scikit-learn · XGBoost · LightGBM · SHAP · statsmodels · R
+**Deep learning:** PyTorch · TensorFlow/Keras · OpenCV · diffusers · ControlNet · LoRA · SegFormer
+**LLMs:** open-source LLM evaluation · LLM-as-a-judge · prompt design · RAG · FAISS · LangGraph · QLoRA/PEFT
+**Tools:** SQL · BigQuery · PySpark · MLflow · FastAPI · Docker · Git · GitHub Actions · Streamlit · Gradio · Power BI
