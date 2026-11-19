@@ -1,9 +1,9 @@
 ### Hi, I'm Merve 👋
 
-M.Sc. Data Science student at Dokuz Eylül University (Statistics Department, thesis stage) with a B.Sc. in Electrical and Electronics Engineering. I build machine learning and LLM projects end to end and check whether the results really hold: anomaly detection and risk scoring on meter and sensor data, RAG and tool-calling LLM agents, and image generation experiments. My thesis evaluates open-source 7–8B LLMs and studies how choices such as prompt format, token budget and answer extraction change their scores.
+M.Sc. Data Science student at Dokuz Eylül University (thesis stage) with a B.Sc. in Electrical and Electronics Engineering. I build machine learning and LLM projects end to end and check whether the results really hold: anomaly detection and risk scoring on meter and sensor data, RAG and tool-calling LLM agents, and image generation experiments. My thesis evaluates open-source 7–9B LLMs and studies how choices such as prompt format, token budget and answer extraction change their scores.
 
 - 🎓 M.Sc. in Data Science @ Dokuz Eylül University (in progress, GPA 3.69) · B.Sc. in Electrical & Electronics Engineering
-- 🔬 Thesis: *Statistical Evaluation of Large Language Models' Performance Across Different Tasks* · 8 open-source LLMs on GSM8K, HumanEval and MMLU
+- 🔬 Thesis: *Statistical Evaluation of Large Language Models' Performance Across Different Tasks* · 8 open-source LLMs (7–9B, two generations) on GSM8K, HumanEval and MMLU
 - 💼 AI Model Evaluator (RLHF) @ Outlier AI, part-time
 - 🧪 AI & Computer Vision Engineer @ Glossa, an early-stage startup project (12/2025 – 07/2026): skin-tone analysis with OpenCV and CIELAB · 1st place, LLM Jetpack Ideathon
 - ⚡ Former project engineer in solar energy · 🌍 Top 10, EU-funded E-DATA Project
