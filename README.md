@@ -8,7 +8,7 @@ M.Sc. Data Science student at Dokuz Eylül University (Statistics Department, th
 - 🧪 AI & Computer Vision Engineer @ Glossa, an early-stage startup project (12/2025 – 07/2026): skin-tone analysis with OpenCV and CIELAB · 1st place, LLM Jetpack Ideathon
 - ⚡ Former project engineer in solar energy · 🌍 Top 10, EU-funded E-DATA Project
 - ✍️ I write about AI on [Medium](https://medium.com/@mervcaliskaan)
--  [LinkedIn](https://www.linkedin.com/in/mervecaliskann)
+- 🤝 Let's connect on [LinkedIn](https://www.linkedin.com/in/mervecaliskann)
 
 ---
 
